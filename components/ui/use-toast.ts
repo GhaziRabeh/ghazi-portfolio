@@ -7,6 +7,5 @@ export const useToast = useToastOriginal;
 
 export {
   toast,
-  type Toast,
   type ToasterToast,
 } from "@/hooks/use-toast";
