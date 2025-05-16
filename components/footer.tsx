@@ -16,7 +16,7 @@ export function Footer() {
         
         <div className="flex space-x-6">
           <Link 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/ghazi-rabeh-b4a311366/?trk=PROFILE_DROP_DOWN" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -25,7 +25,7 @@ export function Footer() {
             <LinkedinIcon className="h-5 w-5" />
           </Link>
           <Link 
-            href="https://github.com" 
+            href="https://github.com/GhaziRabeh" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -33,17 +33,9 @@ export function Footer() {
           >
             <GithubIcon className="h-5 w-5" />
           </Link>
+          
           <Link 
-            href="https://twitter.com" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="text-muted-foreground hover:text-primary transition-colors"
-            aria-label="Twitter"
-          >
-            <TwitterIcon className="h-5 w-5" />
-          </Link>
-          <Link 
-            href="mailto:hello@ghazirabeh.com" 
+            href="mailto:rabehghazi81@gmail.com" 
             className="text-muted-foreground hover:text-primary transition-colors"
             aria-label="Email"
           >

@@ -29,104 +29,106 @@ export function ExperienceSection() {
 
   // Professional Experience Data
   const professionalExperience: ExperienceItem[] = [
-    {
-      id: "exp1",
-      title: "Senior Full Stack Developer",
-      company: "TechCorp International",
-      location: "New York, NY",
-      period: "Jan 2021 - Present",
-      description: "Leading development of enterprise-level web applications with React and Spring Boot.",
-      technologies: ["React", "Spring Boot", "AWS", "MySQL", "Redis"],
-      details: [
-        "Led a team of 5 developers in creating a new customer management platform",
-        "Optimized database queries resulting in 40% faster load times",
-        "Implemented CI/CD pipeline using GitHub Actions and AWS",
-        "Mentored junior developers and conducted code reviews"
-      ]
-    },
-    {
-      id: "exp2",
-      title: "Full Stack Developer",
-      company: "Digital Solutions Inc.",
-      location: "San Francisco, CA",
-      period: "Mar 2018 - Dec 2020",
-      description: "Developed responsive web applications using Angular and Laravel.",
-      technologies: ["Angular", "Laravel", "PostgreSQL", "Docker"],
-      details: [
-        "Built and maintained 3 major client-facing applications",
-        "Implemented authentication system with multi-factor authentication",
-        "Optimized front-end performance achieving 95+ Lighthouse scores",
-        "Contributed to internal component library used across multiple projects"
-      ]
-    },
-    {
-      id: "exp3",
-      title: "Web Developer",
-      company: "InnovateTech",
-      location: "Boston, MA",
-      period: "Jun 2016 - Feb 2018",
-      description: "Created custom websites and web applications for clients across various industries.",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
-      details: [
-        "Developed 12+ client websites from design to deployment",
-        "Created RESTful APIs for mobile application integration",
-        "Implemented responsive designs for optimal viewing on all devices",
-        "Collaborated with design team to implement pixel-perfect UI"
-      ]
-    }
-  ];
+  {
+    id: "exp1",
+    title: "Full Stack Developer Intern",
+    company: "Tekno Island",
+    location: "Hammamet, Tunisia",
+    period: "Mar 2025 - Present",
+    description: "Contributing to the development of Investini, a microservices-based platform connecting entrepreneurs and investors.",
+    technologies: ["Spring Boot", "Next.js", "Microservices", "JWT", "REST API"],
+    details: [
+      "Developed secure authentication service using JWT with centralized identity management",
+      "Built and connected REST APIs between distributed microservices",
+      "Implemented circuit breakers for inter-service communication",
+      "Developed responsive front-end interfaces using Next.js"
+    ]
+  },
+  {
+    id: "exp2",
+    title: "Full Stack Developer Intern",
+    company: "Think Trend",
+    location: "Nabeul, Tunisia",
+    period: "Jan 2025 - Present",
+    description: "Worked on a business management web application following Scrum methodology.",
+    technologies: ["Spring Boot", "Angular", "REST API", "JWT", "Scrum"],
+    details: [
+      "Developed secure authentication system using JWT",
+      "Built modular and reusable components with Angular",
+      "Created and documented RESTful APIs with Spring Boot",
+      "Collaborated in Agile team and participated in sprint planning and reviews"
+    ]
+  },
+  {
+    id: "exp3",
+    title: "Web Developer Intern",
+    company: "Tekno Island",
+    location: "Hammamet, Tunisia",
+    period: "Sept 2024 - Oct 2024",
+    description: "Observed professional web development practices and contributed to an e-commerce project.",
+    technologies: ["Laravel", "JavaScript", "Bootstrap", "CSS3", "HTML5"],
+    details: [
+      "Built a complete responsive e-commerce site using Laravel and Bootstrap",
+      "Designed front-end components with HTML, CSS, and JavaScript",
+      "Integrated front-end with Laravel back-end features",
+      "Participated in basic web security practices and responsive design implementation"
+    ]
+  }
+];
+
 
   // Freelance Projects Data
   const freelanceProjects: ExperienceItem[] = [
-    {
-      id: "proj1",
-      title: "E-commerce Platform",
-      company: "Fashion Boutique",
-      location: "Remote",
-      period: "Nov 2022 - Feb 2023",
-      description: "Built a custom e-commerce platform with Next.js and Stripe integration.",
-      technologies: ["Next.js", "Stripe", "Tailwind CSS", "MongoDB"],
-      details: [
-        "Implemented secure payment processing with Stripe",
-        "Created admin dashboard for inventory management",
-        "Built responsive product catalog with advanced filtering",
-        "Integrated with shipping API for real-time shipping calculations"
-      ],
-      link: "https://fashion-boutique.com"
-    },
-    {
-      id: "proj2",
-      title: "Real Estate Listing Application",
-      company: "PropertyFinder",
-      location: "Remote",
-      period: "May 2021 - Aug 2021",
-      description: "Developed a property listing platform with advanced search functionality.",
-      technologies: ["React", "Node.js", "MongoDB", "Google Maps API"],
-      details: [
-        "Implemented geolocation search with Google Maps integration",
-        "Created advanced filtering options for property searches",
-        "Built user authentication and property saving features",
-        "Developed admin tools for property management and verification"
-      ],
-      link: "https://propertyfinder.com"
-    },
-    {
-      id: "proj3",
-      title: "Learning Management System",
-      company: "EducateMe",
-      location: "Remote",
-      period: "Jan 2020 - Apr 2020",
-      description: "Created a custom LMS for online courses with interactive features.",
-      technologies: ["Angular", "Spring Boot", "MySQL", "AWS"],
-      details: [
-        "Built course creation and management tools",
-        "Implemented video streaming with adaptive bitrate",
-        "Created interactive quizzes and assignment submission system",
-        "Developed analytics dashboard for course performance"
-      ],
-      link: "https://educateme.com"
-    }
-  ];
+  {
+    id: "proj1",
+    title: "CRUD Web Application",
+    company: "Local Client",
+    location: "Remote",
+    period: "Feb 2025 - Mar 2025",
+    description: "Developed a full CRUD system for managing resources using Laravel.",
+    technologies: ["Laravel", "MySQL", "Bootstrap", "Blade"],
+    details: [
+      "Created CRUD operations for managing entities (create, read, update, delete)",
+      "Implemented server-side form validation and error handling",
+      "Designed responsive UI with Bootstrap and Blade templates",
+      "Connected MySQL database with Eloquent ORM for data operations"
+    ],
+    link: ""
+  },
+  {
+    id: "proj2",
+    title: "Authentication System",
+    company: "Startup Client",
+    location: "Remote",
+    period: "Jan 2025 - Feb 2025",
+    description: "Built a secure user authentication system using Spring Boot and JWT.",
+    technologies: ["Spring Boot", "Spring Security", "JWT", "PostgreSQL"],
+    details: [
+      "Implemented login, registration, and role-based access control",
+      "Used JWT tokens for secure authentication and stateless sessions",
+      "Integrated password hashing and validation",
+      "Tested endpoints using Postman and documented with Swagger"
+    ],
+    link: ""
+  },
+  {
+    id: "proj3",
+    title: "Resource Management System",
+    company: "Freelance Client",
+    location: "Remote",
+    period: "Nov 2024 - Dec 2024",
+    description: "Created a web-based CRUD system using Spring Boot.",
+    technologies: ["Spring Boot", "MySQL", "Bootstrap"],
+    details: [
+      "Developed CRUD functionality for managing data entities",
+      "Used Thymeleaf for server-side rendering and dynamic views",
+      "Connected H2 in-memory database for development and testing",
+      "Applied MVC pattern for better code organization"
+    ],
+    link: ""
+  }
+];
+
 
   const ExperienceCard = ({ experience, index }: { experience: ExperienceItem, index: number }) => (
     <motion.div

@@ -183,10 +183,10 @@ export function ContactSection() {
                   <div>
                     <h4 className="font-medium">Email</h4>
                     <a 
-                      href="mailto:hello@ghazirabeh.com"
+                      href="mailto:rabehghazi81@gmail.com"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      hello@ghazirabeh.com
+                      rabehghazi81@gmail.com
                     </a>
                   </div>
                 </li>
@@ -197,10 +197,10 @@ export function ContactSection() {
                   <div>
                     <h4 className="font-medium">Phone</h4>
                     <a 
-                      href="tel:+12345678900"
+                      href="tel:+21650159397"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      +1 (234) 567-8900
+                      +216 50 159 397
                     </a>
                   </div>
                 </li>
@@ -211,30 +211,14 @@ export function ContactSection() {
                   <div>
                     <h4 className="font-medium">Location</h4>
                     <p className="text-muted-foreground">
-                      New York, NY, United States
+                      Korba, Tunisia
                     </p>
                   </div>
                 </li>
               </ul>
             </div>
 
-            <div>
-              <h3 className="text-2xl font-bold mb-6">Office Hours</h3>
-              <ul className="space-y-3">
-                <li className="flex justify-between">
-                  <span className="font-medium">Monday - Friday</span>
-                  <span className="text-muted-foreground">9:00 AM - 6:00 PM</span>
-                </li>
-                <li className="flex justify-between">
-                  <span className="font-medium">Saturday</span>
-                  <span className="text-muted-foreground">10:00 AM - 2:00 PM</span>
-                </li>
-                <li className="flex justify-between">
-                  <span className="font-medium">Sunday</span>
-                  <span className="text-muted-foreground">Closed</span>
-                </li>
-              </ul>
-            </div>
+ 
           </motion.div>
 
           <motion.div

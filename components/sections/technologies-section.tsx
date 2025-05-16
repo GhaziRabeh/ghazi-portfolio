@@ -32,7 +32,7 @@ export function TechnologiesSection() {
     },
     {
       name: "Laravel",
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain.svg",
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/laravel/laravel-original.svg",
       color: "text-[#FF2D20] dark:text-[#FF2D20]",
     },
     {
